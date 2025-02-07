@@ -73,7 +73,7 @@ function playGame() {
   // TODO: Stop the game and declare winner if user cancels
 
   // Play a round ROUND_COUNT times
-  for (let i = 0; i < ROUNDS; i++) {
+  for (let i = 0; i < ROUND_COUNT; i++) {
     playRound(getHumanChoice(), getComputerChoice());
   }
 
